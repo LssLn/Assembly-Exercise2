@@ -1,8 +1,3 @@
-;# ESAME 13/01/2020 T2
-;# ciclo for 4 in cui scanf STR e inserisco in N la sua strlen.
-;# Poi scanf l'indice i della stringa da processare (passo alla funzione STR[i],N[i])
-;#la funzione fa un ciclo for della strlen della str passata e se vede che un elemento di str[] è >= 58 (cioè non è un numero (i numeri in ascii vanno da 47 a 57); se si rompe il ciclo e torna l'indice i precedente (l'ultimo che non era >=58). Se nessuno soddisfa >=58 ritorna l'indice i a fine for, cioè i=strlen(d)
-;#questo indice ritornato è A, infine stampo il msg3 che ha 2 argomenti : questo indice tornato dalla funzione, A, e l'indice acquisito con msg2 per scegliere STR[i] e N[i] da passare
 .data 
 STR: .space 64 ;# char STR[4][16]
 N: .space 32 ;# int N[4];
